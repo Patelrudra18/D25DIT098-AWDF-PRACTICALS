@@ -1,14 +1,33 @@
 import React from 'react';
 
+const levels = {
+  HTML: 90,
+  CSS: 85,
+  JavaScript: 75,
+  React: 70,
+  Vite: 65,
+  Git: 70,
+};
+
 function Skills({ skillList }) {
   return (
-    <section id="skills" className="skills">
-      <h2 className="skills__title">Skills</h2>
-      <ul className="skills__list">
+    <section id="skills" className="section">
+      <p className="section__eyebrow">Skills</p>
+      <h2 className="section__title">What I work with</h2>
+
+      <div className="skills__grid">
         {skillList.map((skill) => (
-          <li key={skill} className="skills__item">{skill}</li>
+          <div key={skill} className="skills__card">
+            <div className="skills__name">{skill}</div>
+            <div className="skills__bar-track">
+              <div
+                className="skills__bar-fill"
+                style={{ width: `${levels[skill] || 60}%` }}
+              />
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }

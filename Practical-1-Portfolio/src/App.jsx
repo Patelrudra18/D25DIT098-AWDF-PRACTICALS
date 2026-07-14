@@ -13,7 +13,7 @@ function App() {
     <div className="app-shell">
       <NavBar />
       <div className="app">
-        <Header name="Rudra Patel" role="Frontend Developer" />
+        <Header name="Rudra Patel" role="Frontend Developer" initials="RP" />
         <About />
         <Skills skillList={mySkills} />
       </div>

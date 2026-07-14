@@ -1,12 +1,15 @@
 :root {
-  --bg: #ffffff;
-  --surface: #f7f7f8;
-  --text: #1a1a1a;
-  --muted: #6b6b6b;
-  --border: #e5e5e5;
-  --accent: #2563eb;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --accent: #0d9488;
+  --accent-soft: #ccfbf1;
+  --accent-dark: #0f766e;
 
-  --font-body: 'Inter', 'Segoe UI', Arial, sans-serif;
+  --font-display: 'Sora', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
 }
 
 * {
@@ -16,7 +19,7 @@
 body {
   margin: 0;
   font-family: var(--font-body);
-  line-height: 1.6;
+  line-height: 1.65;
   background: var(--bg);
   color: var(--text);
 }
@@ -26,9 +29,15 @@ html {
 }
 
 h1, h2, h3 {
+  font-family: var(--font-display);
   margin: 0;
 }
 
 a {
   color: inherit;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent-dark);
 }
