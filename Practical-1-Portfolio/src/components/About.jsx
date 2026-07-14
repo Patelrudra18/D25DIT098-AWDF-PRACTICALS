@@ -22,7 +22,7 @@ function About() {
           </div>
           <div className="about__fact">
             <span className="about__fact-label">Currently</span>
-            <span className="about__fact-value">Diploma in IT student</span>
+            <span className="about__fact-value">IT student</span>
           </div>
         </div>
 
@@ -33,12 +33,7 @@ function About() {
             build with React, breaking pages down into small, reusable
             components — the same approach this portfolio is built with.
           </p>
-          <p>
-            This site began as a practical assignment on component
-            architecture and props, and I've kept refining it since,
-            treating it as a small ongoing project rather than a one-off
-            submission.
-          </p>
+         
         </div>
       </div>
     </section>

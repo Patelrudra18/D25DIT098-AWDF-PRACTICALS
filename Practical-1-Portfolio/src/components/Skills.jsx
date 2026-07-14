@@ -4,9 +4,7 @@ const levels = {
   HTML: 90,
   CSS: 85,
   JavaScript: 75,
-  React: 70,
-  Vite: 65,
-  Git: 70,
+
 };
 
 function Skills({ skillList }) {
