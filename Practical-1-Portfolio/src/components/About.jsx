@@ -10,7 +10,7 @@ function About() {
         <div className="about__card">
           <div className="about__fact">
             <span className="about__fact-label">Based in</span>
-            <span className="about__fact-value">Ahmedabad, Gujarat</span>
+            <span className="about__fact-value">Changa, Gujarat</span>
           </div>
           <div className="about__fact">
             <span className="about__fact-label">Focus</span>
