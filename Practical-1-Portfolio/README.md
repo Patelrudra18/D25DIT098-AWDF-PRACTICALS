@@ -1,16 +1,29 @@
-# React + Vite
+# Practical 1 - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple portfolio website made with React, for my Advanced Web Development Framework practical.
 
-Currently, two official plugins are available:
+## What it has
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- A navbar to jump between sections
+- A header with my name and role
+- An about me section
+- A skills list
+- A footer
 
-## React Compiler
+The design looks like a code editor (tabs, syntax colors, code font) since this project is all about learning React components.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to run it
 
-## Expanding the Oxlint configuration
+```
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Then open the link it shows in your browser.
+
+## Built with
+
+- React
+- Vite
+
+Made by Rudra Patel.
